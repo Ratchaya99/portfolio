@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { projects } from "@/shares/mocks/data/projects";
 
-export default function Projects() {
+export function Projects() {
   const featuredProjects = projects
     .filter((project) => project.featured)
     .slice(0, 3);
