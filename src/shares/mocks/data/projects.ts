@@ -60,7 +60,7 @@ export const projects = [
   {
     slug: "village-fund",
     title: "Village Fund (VFM)",
-    year: "2023–2024",
+    year: "2023–2025",
     description:
       "Financial management platform for village funds and community organizations, supporting member management, financial transactions, loan management, and operational workflows.",
     featured: true,
@@ -91,5 +91,31 @@ export const projects = [
       "State Management",
       "Design System",
     ],
+  },
+  {
+    slug: "zleepcharge",
+    title: "Zleepcharge",
+    year: "2023",
+    description:
+      "Mobile application for EV charging services, allowing users to manage their accounts, find charging stations, and schedule overnight charging.",
+    featured: true,
+    logo: "/images/companies/zleepcharge-logo.jpg",
+    thumbnail: "/images/projects/zleepcharge/thumbnail.jpg",
+    banner: "/images/projects/zleepcharge/banner.png",
+    company: "More Studio",
+    role: "Front End Developer",
+    about:
+      "A mobile application for EV charging services, designed primarily for residential users and other locations such as condominiums, housing communities, and hotels.",
+    roleDescription:
+      "Developed core mobile features and integrated APIs across the application, with additional contributions to backend services using Node.js.",
+    responsibilities: [
+      "Developed user authentication flows including registration, login, and account-related features.",
+      "Developed the overnight charging feature, allowing users to schedule EV charging sessions for overnight use.",
+      "Built customer profile and account management features.",
+      "Integrated REST APIs to support authentication, charging, customer, and other application workflows.",
+      "Contributed to backend development using Node.js, including API functionality for retrieving charger-related data.",
+      "Worked with the team to troubleshoot issues, fix bugs, and support additional features across the application.",
+    ],
+    technologies: ["React Native", "TypeScript", "Node.js", "REST API"],
   },
 ];
