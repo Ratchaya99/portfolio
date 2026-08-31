@@ -118,4 +118,32 @@ export const projects = [
     ],
     technologies: ["React Native", "TypeScript", "Node.js", "REST API"],
   },
+  {
+    slug: "genco",
+    title: "GENCO Sales Management Platform",
+    year: "2025",
+    description:
+      "Web-based sales management platform for managing companies, vendors, and sales appointments.",
+    featured: false,
+    logo: "/images/companies/genco-logo.png",
+    thumbnail: "/images/projects/genco/thumbnail.png",
+    banner: "/images/projects/genco/banner.png",
+    company: "More Studio",
+    role: "Front End Developer",
+    context:
+      "Built the first phase of the platform from the ground up and prepared the project for continued development by the team.",
+    technologies: ["Next.js", "TypeScript"],
+    about:
+      "A web platform designed to help sales teams manage company information, vendors, and appointment scheduling in one place.",
+    roleDescription:
+      "Led the frontend development for the first phase, taking the project from initial setup to a working product before transitioning the project to the wider development team.",
+    responsibilities: [
+      "Set up the project and established the initial frontend architecture and development structure.",
+      "Estimated development effort and planned implementation work for the first phase of the product.",
+      "Developed core features including company management, vendor information, and sales appointment scheduling.",
+      "Designed and implemented reusable frontend components and patterns to support consistent development across the application.",
+      "Worked independently throughout the first phase, taking ownership from project setup through feature implementation and delivery.",
+      "Groomed and supported other developers during the transition to the next development phase.",
+    ],
+  },
 ];
