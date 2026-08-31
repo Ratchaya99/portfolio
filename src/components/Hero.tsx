@@ -31,7 +31,7 @@ export function Hero() {
           </a>
 
           <a
-            href="mailto:ratchaya.gun@gmail.com"
+            href="#contact"
             className="rounded-full border border-black/15 bg-white px-6 py-3 text-sm font-semibold transition hover:bg-black/5"
           >
             Get in Touch
