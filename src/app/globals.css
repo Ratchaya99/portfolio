@@ -33,3 +33,59 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), sans-serif;
 }
+
+@keyframes loader-char-drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-120px) scale(0.9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(12px) scale(1.02);
+  }
+
+  80% {
+    transform: translateY(-4px) scale(0.99);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes loader-text-exit {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes loader-exit {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.loader-char {
+  opacity: 0;
+  animation: loader-char-drop 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-loader-text {
+  animation: loader-text-exit 0.35s ease forwards;
+}
+
+.animate-loader-exit {
+  animation: loader-exit 0.55s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
