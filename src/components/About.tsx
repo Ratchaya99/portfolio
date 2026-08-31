@@ -9,9 +9,7 @@ export function About() {
           </span>
 
           <h2 className="mt-6 text-4xl font-bold leading-tight tracking-tight md:text-5xl">
-            Building reliable
-            <br />
-            digital experiences<span className="text-primary">.</span>
+            Building reliable digital experiences<span className="text-primary">.</span>
           </h2>
         </div>
 
