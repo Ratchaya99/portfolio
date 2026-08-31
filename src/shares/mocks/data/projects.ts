@@ -146,4 +146,36 @@ export const projects = [
       "Groomed and supported other developers during the transition to the next development phase.",
     ],
   },
+  {
+    slug: "ikigai-adult-diaper",
+    title: "Ikigai Adult Diaper",
+    year: "2024",
+    description:
+      "A product information website for adult diapers, featuring product details, customer reviews, articles, and purchasing channels.",
+    featured: false,
+    logo: "/images/companies/ikigai-logo.jpg",
+    thumbnail: "/images/projects/ikigai/thumbnail.jpg",
+    company: "More Studio",
+    role: "Front End Developer",
+    technologies: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+    ],
+    about:
+      "A custom WordPress website created to showcase adult diaper products, articles, and customer reviews, with information about pricing and available purchasing channels.",
+    roleDescription:
+      "Took responsibility for setting up the project from the beginning, including the WordPress environment, custom theme structure, plugin selection, and frontend implementation.",
+    responsibilities: [
+      "Set up the WordPress project and established the initial structure for the custom theme.",
+      "Evaluated and selected appropriate WordPress plugins to support the project's requirements.",
+      "Developed key website components including the navigation, footer, banner slider, social media section, and contact form.",
+      "Contributed to frontend development across the website and helped implement additional features throughout the project.",
+      "Guided team members who were new to WordPress by explaining the platform, development workflow, and implementation approaches.",
+      "Troubleshot technical issues and supported other developers in resolving implementation problems throughout the project.",
+    ],
+  },
 ];
