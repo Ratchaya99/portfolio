@@ -35,13 +35,19 @@ export function Projects() {
                   project.thumbnail ? "h-0 group-hover:h-44" : "hidden"
                 }`}
               >
+                {/* Thumbnail */}
                 {project.thumbnail && (
-                  <Image
-                    src={project.thumbnail}
-                    alt={`${project.title} preview`}
-                    fill
-                    className="object-cover opacity-0 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
-                  />
+                  <div className="grid grid-rows-[0fr] overflow-hidden transition-all duration-500 group-hover:grid-rows-[1fr]">
+                    <div className="relative min-h-0 overflow-hidden">
+                      <Image
+                        src={project.thumbnail}
+                        alt={`${project.title} preview`}
+                        width={800}
+                        height={450}
+                        className="h-44 w-full object-cover opacity-0 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
+                      />
+                    </div>
+                  </div>
                 )}
               </div>
 
