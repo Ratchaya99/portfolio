@@ -15,6 +15,12 @@ export default function ProjectsPage() {
           Projects I&apos;ve worked on
           <span className="text-primary">.</span>
         </h1>
+
+        <p className="mt-5 max-w-3xl text-base leading-7 text-black/50">
+          A selection of projects I contributed to throughout my career. Public
+          projects are presented with more detail, while internal projects are
+          described at a high level to respect confidentiality.
+        </p>
       </div>
 
       {/* Projects */}

@@ -60,7 +60,7 @@ export const projects = [
   {
     slug: "village-fund",
     title: "Village Fund (VFM)",
-    year: "2023–2024",
+    year: "2023–2025",
     description:
       "Financial management platform for village funds and community organizations, supporting member management, financial transactions, loan management, and operational workflows.",
     featured: true,
@@ -90,6 +90,92 @@ export const projects = [
       "TypeScript",
       "State Management",
       "Design System",
+    ],
+  },
+  {
+    slug: "zleepcharge",
+    title: "Zleepcharge",
+    year: "2023",
+    description:
+      "Mobile application for EV charging services, allowing users to manage their accounts, find charging stations, and schedule overnight charging.",
+    featured: true,
+    logo: "/images/companies/zleepcharge-logo.jpg",
+    thumbnail: "/images/projects/zleepcharge/thumbnail.jpg",
+    banner: "/images/projects/zleepcharge/banner.png",
+    company: "More Studio",
+    role: "Front End Developer",
+    about:
+      "A mobile application for EV charging services, designed primarily for residential users and other locations such as condominiums, housing communities, and hotels.",
+    roleDescription:
+      "Developed core mobile features and integrated APIs across the application, with additional contributions to backend services using Node.js.",
+    responsibilities: [
+      "Developed user authentication flows including registration, login, and account-related features.",
+      "Developed the overnight charging feature, allowing users to schedule EV charging sessions for overnight use.",
+      "Built customer profile and account management features.",
+      "Integrated REST APIs to support authentication, charging, customer, and other application workflows.",
+      "Contributed to backend development using Node.js, including API functionality for retrieving charger-related data.",
+      "Worked with the team to troubleshoot issues, fix bugs, and support additional features across the application.",
+    ],
+    technologies: ["React Native", "TypeScript", "Node.js", "REST API"],
+  },
+  {
+    slug: "genco",
+    title: "GENCO Sales Management Platform",
+    year: "2025",
+    description:
+      "Web-based sales management platform for managing companies, vendors, and sales appointments.",
+    featured: false,
+    logo: "/images/companies/genco-logo.png",
+    thumbnail: "/images/projects/genco/thumbnail.png",
+    banner: "/images/projects/genco/banner.png",
+    company: "More Studio",
+    role: "Front End Developer",
+    context:
+      "Built the first phase of the platform from the ground up and prepared the project for continued development by the team.",
+    technologies: ["Next.js", "TypeScript"],
+    about:
+      "A web platform designed to help sales teams manage company information, vendors, and appointment scheduling in one place.",
+    roleDescription:
+      "Led the frontend development for the first phase, taking the project from initial setup to a working product before transitioning the project to the wider development team.",
+    responsibilities: [
+      "Set up the project and established the initial frontend architecture and development structure.",
+      "Estimated development effort and planned implementation work for the first phase of the product.",
+      "Developed core features including company management, vendor information, and sales appointment scheduling.",
+      "Designed and implemented reusable frontend components and patterns to support consistent development across the application.",
+      "Worked independently throughout the first phase, taking ownership from project setup through feature implementation and delivery.",
+      "Groomed and supported other developers during the transition to the next development phase.",
+    ],
+  },
+  {
+    slug: "ikigai-adult-diaper",
+    title: "Ikigai Adult Diaper",
+    year: "2024",
+    description:
+      "A product information website for adult diapers, featuring product details, customer reviews, articles, and purchasing channels.",
+    featured: false,
+    logo: "/images/companies/ikigai-logo.jpg",
+    thumbnail: "/images/projects/ikigai/thumbnail.jpg",
+    company: "More Studio",
+    role: "Front End Developer",
+    technologies: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+    ],
+    about:
+      "A custom WordPress website created to showcase adult diaper products, articles, and customer reviews, with information about pricing and available purchasing channels.",
+    roleDescription:
+      "Took responsibility for setting up the project from the beginning, including the WordPress environment, custom theme structure, plugin selection, and frontend implementation.",
+    responsibilities: [
+      "Set up the WordPress project and established the initial structure for the custom theme.",
+      "Evaluated and selected appropriate WordPress plugins to support the project's requirements.",
+      "Developed key website components including the navigation, footer, banner slider, social media section, and contact form.",
+      "Contributed to frontend development across the website and helped implement additional features throughout the project.",
+      "Guided team members who were new to WordPress by explaining the platform, development workflow, and implementation approaches.",
+      "Troubleshot technical issues and supported other developers in resolving implementation problems throughout the project.",
     ],
   },
 ];
