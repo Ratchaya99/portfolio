@@ -1,6 +1,6 @@
 export function Contact() {
   return (
-    <section id="contact" className="border-b border-black/10 py-24">
+    <section id="contact" className="py-24">
       <div className="grid gap-12 md:grid-cols-[1fr_1.2fr] md:items-end">
         {/* Header */}
         <div>
@@ -66,18 +66,10 @@ export function Contact() {
 
             <div className="relative">
               <p className="text-lg font-semibold md:text-xl">096-941-3606</p>
-
               <p className="mt-1 text-xs text-black/40">Give me a call</p>
             </div>
           </a>
         </div>
-      </div>
-
-      {/* Availability */}
-      <div className="mt-10 flex items-center gap-3 border-t border-black/10 pt-6">
-        <span className="h-2.5 w-2.5 rounded-full bg-primary" />
-
-        <span className="text-sm text-black/50">Open to new opportunities</span>
       </div>
     </section>
   );
