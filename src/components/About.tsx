@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section className="border-b border-black/10 px-6 py-24">
+    <section id="about" className="border-b border-black/10 px-6 py-24">
       <div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr]">
         {/* Heading */}
         <div>
